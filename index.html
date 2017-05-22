@@ -4,8 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
-
+		<title>Static Site Generators are The Game Changers</title>
+		<meta name="description" content="Talk about static site generators, what they are and how they influence technical communication">
+		<meta name="author" content="Lukasz Gornicki">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 
@@ -24,8 +25,331 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h3>Static Site Generators</h3>
+					<h5>The Game Changers</h5>
+					<hr>
+					<p>
+						<small>Created by <a href="https://github.com/derberg">Lukasz Gornicki</a> / <a href="http://twitter.com/derberq">@derberq</a></small><br/>
+						<small>Working on <a href="https://yaas.io/">YaaS</a> in <a href="http://hybris.com/en/">SAP Hybris</a></small>
+					</p>
+				</section>
+
+				<section>
+					<section>The Definition</section>
+					<section>
+						<blockquote>Tool that takes your input data, injects it in a predefined layouts and generates a final output files that you can expose to your customers.</blockquote>
+					</section>
+					<section>
+						<blockquote>Tool that takes your <font style="color:yellow">input data</font>, injects it in a predefined <font style="color:yellow">layouts</font> and generates a final <font style="color:yellow">output</font> files that you can <font style="color:yellow">expose</font> to your customers.</blockquote>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h5>Static Site Generator</h5>
+						<p>
+							<small>word by word</small>
+						</p>
+					</section>
+
+					<section>
+						<h5>Static</h5>
+						<p><small>
+							<ul>
+							  <li>Static Web Page</li>
+							  <li><s>Not dynamic</s></li>
+							  <li>No server side rendering</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<img src="img/devportal_before.png">
+					</section>
+
+					<section>
+						<img src="img/devportal_after.png">
+					</section>
+
+					<section>
+						<h5>Site</h5>
+						<p><small>
+							<ul>
+							  <li>Web Page</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<h5>Generator</h5>
+						<p><small>
+							<ul>
+								<li>Takes input and gives output</li>
+								<li>Input can be anything, like markdown</li>
+								<li>Output can be anything, like HTML</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<h5>static site generators</h5>
+						<img src="img/confusing.jpg">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h5>available generators</h5>
+					</section>
+
+					<section>
+						<p><small>
+							<ul>
+								<li><a href="https://staticsitegenerators.net">https://staticsitegenerators.net</a> - 457</li>
+								<li><a href="https://www.staticgen.com">https://www.staticgen.com</a></li>
+								<li>"All" possible programming languages</li>
+							</ul>
+						</small></p>
+					</section>
+				</section>
+
+				<section>
+
+					<section>
+						<h5>known implementations</h5>
+					</section>
+
+					<section>
+						<h5><small><a href="https://developer.github.com/v3/">GitHub Developer</a> on <a href="https://nanoc.ws">nanoc</a></small></h5>
+						<img style="width: 70%;" src="img/github.png">
+					</section>
+
+					<section>
+						<h5><small><a href="http://getbootstrap.com">Bootstrap</a> on <a href="https://jekyllrb.com">Jekyll</a></small></h5>
+						<img style="width: 70%;" src="img/bootstrap.png">
+					</section>
+
+					<section>
+						<h5><small><a href="https://kubernetes.io">Kubernetes from Google</a> on <a href="https://jekyllrb.com">Jekyll</a></small></h5>
+						<img src="img/kubernetes.png">
+					</section>
+
+					<section>
+						<h5><small><a href="https://prometheus.io/">Prometheus from SoundCloud</a> on <a href="https://nanoc.ws">nanoc</a></small></h5>
+						<img style="width: 70%;" src="img/prometheus.png">
+					</section>
+
+					<section>
+						<h5><small><a href="https://devportal.yaas.io">YaaS Dev Portal</a> on <a href="https://docpad.org">DocPad</a></small></h5>
+						<img src="img/devportal.png">
+					</section>
+
+					<section>
+						<h5>innovative, cloud, open source, startup</h5>
+					</section>
+
+					<section>
+						<h5><small><a href="https://github.com/derberg/docs-with-static-site-generators">https://github.com/derberg/docs-with-static-site-generators</a></small></h5>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h5>SSG vs DITA</h5>
+					</section>
+
+					<section>
+						<p><small>
+							DITA is an XML based standard
+						</small></p>
+					</section>
+
+					<section>
+						<p><small>
+							SSGs are tools that generate output basing on a given input
+						</small></p>
+					</section>
+
+					<section>
+						<p><small>
+							It is like comparing Cow with Milking machine. They're both about milk but in case of Cow it is much more than that. In some countries people dry Cow's poo and use it as a fuel source
+							<img style="width: 70%;" class="fragment fade-out" src="img/cow.jpg">
+							<img style="width: 50%;margin-top: -450px;" class="fragment fade-up" src="img/milk.png">
+							<img style="width: 50%;margin-top: -500px;" class="fragment fade-up" src="img/fuel.jpg">
+						</small></p>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h5>SSG and DITA comparison</h5>
+					</section>
+
+					<section>
+						<h5>Content Reuse</h5>
+						<p><small>
+							<ul>
+								<li>
+									DITA: conref </br>
+									<pre>
+										<code>
+conref="../reusables/topics/reusables-importing-data.dita#reusables-importing-data/smart-paste-para"
+										</code>
+									</pre>
+								</li>
+								<li>
+									SSG: includes (jekyll) or partials (docpad and hugo) </br>
+									<pre>
+										<code>
+<%- @partial('feedback_url') %>
+										</code>
+									</pre>
+								</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<h5>Metadata</h5>
+						<p><small>
+							<ul>
+								<li>
+									DITA: used for indexing
+								</li>
+								<li>SSG: managing and identifying a document </br>
+								In DocPad doesn't have to be explicitly set in file </br>
+									<pre>
+										<code>
+---
+title: My blog post about cats
+tags:
+	- animal
+---
+your content written in **Makrdown** or <strong>HTML</strong>
+										</code>
+									</pre>
+								</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<h5>Maps - relationship tables</h5>
+						<p><small>
+							<ul>
+								<li>DITA: ditamap and map element</li>
+								<li>
+									SSG: docpad-plugin-related and tags metadata
+								</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<h5>Information Typing</h5>
+						<p><small>
+							<ul>
+								<li>TODO</li>
+								<li>TODO</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<h5>Topic-based authoring</h5>
+						<p><small>
+							<ul>
+								<li>TODO</li>
+								<li>TODO</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<h5>Versioning</h5>
+						<p><small>
+							<ul>
+								<li>TODO</li>
+								<li>TODO</li>
+							</ul>
+						</small></p>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h5>Can SSG and DITA coexist?</h5>
+					</section>
+
+					<section>
+						<h5>YES</h5>
+						TODO: sample HTML z dev portal
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h5>SSG Advantages and Disadvantages</h5>
+					</section>
+
+					<section>
+						<h5>Disadvantages</h5>
+						<p><small>
+							<ul>
+								<li>generation performance</li>
+							</ul>
+						</small></p>
+					</section>
+
+					<section>
+						<h5>Advantages?</h5>
+						<p><small>
+							<ul>
+								<li>huge amount to choose from</li>
+								<li>all type of programming languages</li>
+								<li>open source</li>
+								<li>flexible and extensible</li>
+								<li>cms agnostic</li>
+								<li>git challange for TWs</li>
+								<li>crowd sourcing</li>
+							</ul>
+						</small></p>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h5>Should I use it?</h5>
+					</section>
+
+					<section>
+						<h5>Who are you?</h5>
+						Technical Write / Information Developer / Content Provider
+						Hell yeah
+						Business Decider / Documentation Manager / Strategiest / Architect
+						software? cloud? continuous delivery? -> Hell yeah
+						monolith? software on CD with 3 months cycle? content provided only by writers? -> Depends what issues you want to solve
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h5>SSG Next Step</h5>
+					</section>
+
+					<section>
+						<h5>Content as a Service</h5>
+
+							problem: they focus on HTML and cause issue with porting of templates
+							solution: they should focus on JSON only, backend only and then all the frontend could be done totally independently, no porting
+							TODO- pokazac tez knowledge hub
+					</section>
+				</section>
+
 			</div>
 		</div>
 
