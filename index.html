@@ -173,10 +173,17 @@
 
 					<section>
 						<p><small>
-							It is like comparing Cow with Milking machine. They're both about milk but in case of Cow it is much more than that. In some countries people dry Cow's poo and use it as a fuel source
-							<img style="width: 70%;" class="fragment fade-out" src="img/cow.jpg">
-							<img style="width: 50%;margin-top: -450px;" class="fragment fade-up" src="img/milk.png">
-							<img style="width: 50%;margin-top: -500px;" class="fragment fade-up" src="img/fuel.jpg">
+							<img style="width: 70%;" src="img/cow.jpg">
+						</small></p>
+					</section>
+					<section>
+						<p><small>
+							<img style="width: 70%;" src="img/milk.png">
+						</small></p>
+					</section>
+					<section>
+						<p><small>
+							<img style="width: 45%" src="img/fuel.jpg">
 						</small></p>
 					</section>
 
@@ -199,7 +206,7 @@ conref="../reusables/topics/reusables-importing-data.dita#reusables-importing-da
 										</code>
 									</pre>
 								</li>
-								<li>
+								<li class="fragment fade-up">
 									SSG: includes (jekyll) or partials (docpad and hugo) </br>
 									<pre>
 										<code>
@@ -218,7 +225,7 @@ conref="../reusables/topics/reusables-importing-data.dita#reusables-importing-da
 								<li>
 									DITA: used for indexing
 								</li>
-								<li>SSG: managing and identifying a document </br>
+								<li class="fragment fade-up">SSG: managing and identifying a document </br>
 								In DocPad doesn't have to be explicitly set in file </br>
 									<pre>
 										<code>
@@ -240,7 +247,7 @@ your content written in **Makrdown** or <strong>HTML</strong>
 						<p><small>
 							<ul>
 								<li>DITA: ditamap and map element</li>
-								<li>
+								<li class="fragment fade-up">
 									SSG: docpad-plugin-related and tags metadata
 								</li>
 							</ul>
@@ -251,42 +258,99 @@ your content written in **Makrdown** or <strong>HTML</strong>
 						<h5>Information Typing</h5>
 						<p><small>
 							<ul>
-								<li>TODO</li>
-								<li>TODO</li>
+								<li>DITA: default like glossary or task + anything through specialization</li>
+								<li class="fragment fade-up">SSG: through metadata and folder structure
+									<pre>
+										<code>
+---
+title: Creating an object
+type: Tutorial
+---
+										</code>
+									</pre>
+								</li>
 							</ul>
 						</small></p>
 					</section>
 
 					<section>
-						<h5>Topic-based authoring</h5>
+						<h5>Specialization</h5>
 						<p><small>
 							<ul>
-								<li>TODO</li>
-								<li>TODO</li>
+								<li>DITA: possible</li>
+								<li class="fragment fade-up">SSG: possible</li>
 							</ul>
 						</small></p>
 					</section>
 
 					<section>
-						<h5>Versioning</h5>
-						<p><small>
-							<ul>
-								<li>TODO</li>
-								<li>TODO</li>
-							</ul>
-						</small></p>
+						<h5>What is my message anyway</h5>
+						<column style="width: 50%; float: left;">
+							<p>
+								DITA
+								<small>
+								<ul>
+									<li>DITA is a standard/specification</li>
+									<li>You need Ixiasoft or Oxygen as a CMS</li>
+									<li>DITA open toolkit does a PDF generation</li>
+								</ul>
+								</small>
+							</p>
+						</column>
+						<column style="width: 50%; float: left;">
+							<p>
+								Static Site Generators
+								<small>
+								<ul>
+									<li>Toolkit that does a generation</li>
+								</ul>
+								</small>
+							</p>
+						</column>
 					</section>
-
 				</section>
 
 				<section>
 					<section>
-						<h5>Can SSG and DITA coexist?</h5>
+						<h5>Can Static Site Generators and DITA coexist?</h5>
+						<img class="fragment fade-up" src="img/yeah.jpeg">
 					</section>
 
+
+
 					<section>
-						<h5>YES</h5>
-						TODO: sample HTML z dev portal
+						<pre>
+							<code>
+---
+title: 'Wallet Configuration'
+order: 10
+---
+
+<div>
+<section>
+
+<div>
+<p>A Marketer can configure Apple Wallet and Google Wallet to create digital loyalty cards
+and coupons.
+</p>
+
+<p>A loyalty administrator must provide Apple Wallet and Google Wallet credentials that were used
+while signing up as a merchant with Apple and Google respectively. After providing the
+credentials, a loyalty administrator can create a digital loyalty card and coupon for
+Apple Wallet and Google Wallet.
+</p>
+
+</div>
+
+<div>
+
+</div>
+
+</section>
+</div>
+
+							</code>
+						</pre>
 					</section>
 				</section>
 
@@ -308,13 +372,14 @@ your content written in **Makrdown** or <strong>HTML</strong>
 						<h5>Advantages?</h5>
 						<p><small>
 							<ul>
-								<li>huge amount to choose from</li>
-								<li>all type of programming languages</li>
-								<li>open source</li>
-								<li>flexible and extensible</li>
-								<li>cms agnostic</li>
-								<li>git challange for TWs</li>
-								<li>crowd sourcing</li>
+								<li class="fragment fade-up">huge amount to choose from</li>
+								<li class="fragment fade-up">all type of programming languages</li>
+								<li class="fragment fade-up">open source</li>
+								<li class="fragment fade-up">flexible and extensible</li>
+								<li class="fragment fade-up">cms agnostic</li>
+								<li class="fragment fade-up">git challange for TWs</li>
+								<li class="fragment fade-up">learning through samples</li>
+								<li class="fragment fade-up">crowd sourcing</li>
 							</ul>
 						</small></p>
 					</section>
@@ -328,12 +393,18 @@ your content written in **Makrdown** or <strong>HTML</strong>
 
 					<section>
 						<h5>Who are you?</h5>
-						Technical Write / Information Developer / Content Provider
-						Hell yeah
-						Business Decider / Documentation Manager / Strategiest / Architect
-						software? cloud? continuous delivery? -> Hell yeah
-						monolith? software on CD with 3 months cycle? content provided only by writers? -> Depends what issues you want to solve
 					</section>
+
+					<section>
+						<h5>Technical Writer / Information Developer / Content Provider</h5>
+						<img class="fragment fade-up" src="img/yeah.jpeg">
+					</section>
+
+					<section>
+						<h5>Business Decider / Documentation Manager / Strategiest / Architect</h5>
+						<img class="fragment fade-up" src="img/yeah.jpeg">
+					</section>
+
 				</section>
 
 				<section>
@@ -342,14 +413,30 @@ your content written in **Makrdown** or <strong>HTML</strong>
 					</section>
 
 					<section>
+						<h5>Problem</h5>
+
+						<small><a href="https://github.com/lord/slate">Slate</a> vs <a href="https://github.com/bep/docuapi">DocuApi</a></small>
+					</section>
+
+					<section>
 						<h5>Content as a Service</h5>
 
-							problem: they focus on HTML and cause issue with porting of templates
-							solution: they should focus on JSON only, backend only and then all the frontend could be done totally independently, no porting
-							TODO- pokazac tez knowledge hub
+						<small><a href="https://knowledge.yaas.io/35945/yaas-essentials">Presentation Layer</a> vs <a href="https://knowledge.yaas.io/static/data/35945/article.json">Content</a></small>
 					</section>
 				</section>
 
+				<section>
+					<h3>Thanks!</h3>
+					<p>
+						<small>YaaS Dev Portal: <a href="https://devportal.yaas.io">https://devportal.yaas.io</a></small></br>
+						<small>YaaS Knowledge Hub: <a href="https://knowledge.yaas.io">https://knowledge.yaas.io</a></small>
+						<small>This presentation: <a href="https://github.com/derberg/staticsitegenerators_gamechangers">https://github.com/derberg/staticsitegenerators_gamechangers</a></small>
+						<small>GitHub: <a href="https://github.com/derberg">derberg</a></small> <br>
+						<small>Twitter: <a href="http://twitter.com/derberq">@derberq</a></small> <br>
+						<small>DocPad: <a href="https://docpad.org/">https://docpad.org/</a></small> <br>
+						<small>reveal.js: <a href="https://github.com/hakimel/reveal.js/">https://github.com/hakimel/reveal.js</a></small> <br>
+					</p>
+				</section>
 			</div>
 		</div>
 
